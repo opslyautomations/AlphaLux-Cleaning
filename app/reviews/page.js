@@ -20,6 +20,9 @@ export const metadata = {
     title: 'Client Reviews | AlphaLux Cleaning',
     description: 'See what our clients say about AlphaLux Cleaning — 5-star rated across NY, NJ, and CT.',
   },
+  alternates: {
+    canonical: 'https://www.alphaluxcleaning.com/reviews',
+  },
 }
 
 const crumbs = [

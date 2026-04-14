@@ -19,6 +19,9 @@ export const metadata = {
     title: 'Contact Us | AlphaLux Cleaning',
     description: 'Get in touch with AlphaLux Cleaning to book your free quote today.',
   },
+  alternates: {
+    canonical: 'https://www.alphaluxcleaning.com/contact',
+  },
 }
 
 const crumbs = [
