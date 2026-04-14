@@ -10,6 +10,14 @@ export const metadata = {
     title: 'Contact AlphaLux Cleaning',
     description: 'Get in touch with AlphaLux Cleaning to book your free quote today.',
     url: 'https://www.alphaluxcleaning.com/contact',
+    type: 'website',
+    siteName: 'AlphaLux Cleaning',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact Us | AlphaLux Cleaning',
+    description: 'Get in touch with AlphaLux Cleaning to book your free quote today.',
   },
 }
 

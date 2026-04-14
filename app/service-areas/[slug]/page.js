@@ -22,6 +22,17 @@ export async function generateMetadata({ params }) {
       title: location.metaTitle,
       description: location.metaDescription,
       url: `https://www.alphaluxcleaning.com/service-areas/${location.slug}`,
+      type: 'website',
+      siteName: 'AlphaLux Cleaning',
+      locale: 'en_US',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: location.metaTitle,
+      description: location.metaDescription,
+    },
+    alternates: {
+      canonical: `https://www.alphaluxcleaning.com/service-areas/${location.slug}`,
     },
   }
 }

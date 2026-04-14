@@ -16,6 +16,15 @@ export const metadata = {
     description:
       'AlphaLux Cleaning delivers premium residential and commercial cleaning across NY, NJ, and CT. Book your free quote today.',
     url: 'https://www.alphaluxcleaning.com',
+    type: 'website',
+    siteName: 'AlphaLux Cleaning',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Premium House Cleaning Services | AlphaLux Cleaning',
+    description:
+      'AlphaLux Cleaning delivers premium residential and commercial cleaning across NY, NJ, and CT. Book your free quote today.',
   },
 }
 

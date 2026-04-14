@@ -9,6 +9,14 @@ export const metadata = {
     title: 'About AlphaLux Cleaning',
     description: 'Our story, mission, and what makes AlphaLux the premium cleaning choice across the tri-state area.',
     url: 'https://www.alphaluxcleaning.com/about',
+    type: 'website',
+    siteName: 'AlphaLux Cleaning',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About AlphaLux Cleaning | Premium Cleaning Services NY, NJ, CT',
+    description: 'Our story, mission, and what makes AlphaLux the premium cleaning choice across the tri-state area.',
   },
 }
 

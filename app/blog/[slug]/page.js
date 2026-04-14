@@ -22,6 +22,13 @@ export async function generateMetadata({ params }) {
       type: 'article',
       publishedTime: post.date,
       url: `https://www.alphaluxcleaning.com/blog/${post.slug}`,
+      siteName: 'AlphaLux Cleaning',
+      locale: 'en_US',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: post.metaTitle,
+      description: post.metaDescription,
     },
     alternates: {
       canonical: `https://www.alphaluxcleaning.com/blog/${post.slug}`,

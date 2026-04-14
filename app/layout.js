@@ -12,7 +12,16 @@ export const metadata = {
   metadataBase: new URL('https://www.alphaluxcleaning.com'),
   title: { default: 'Premium House Cleaning Services | AlphaLux Cleaning', template: '%s | AlphaLux Cleaning' },
   description: 'AlphaLux Cleaning delivers premium residential and commercial cleaning across NY, NJ, and CT.',
-  openGraph: { siteName: 'AlphaLux Cleaning', type: 'website' },
+  openGraph: {
+    siteName: 'AlphaLux Cleaning',
+    type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@alphaluxcleaning',
+    creator: '@alphaluxcleaning',
+  },
 }
 
 export default function RootLayout({ children }) {
