@@ -87,16 +87,18 @@ export default function Header() {
               </svg>
             </button>
             {servicesOpen && (
-              <div className="absolute top-full left-0 mt-1 w-56 bg-white rounded-lg shadow-xl border border-gray-100 py-2 z-50">
-                {servicesLinks.map((link) => (
-                  <Link
-                    key={link.href}
-                    href={link.href}
-                    className="block px-4 py-2 text-sm text-dark-gray hover:bg-light-gray hover:text-navy transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                ))}
+              <div className="absolute top-full left-0 pt-2 w-56 z-50">
+                <div className="bg-white rounded-lg shadow-xl border border-gray-100 py-2">
+                  {servicesLinks.map((link) => (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className="block px-4 py-2 text-sm text-dark-gray hover:bg-light-gray hover:text-navy transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
+                </div>
               </div>
             )}
           </div>
@@ -118,16 +120,18 @@ export default function Header() {
               </svg>
             </button>
             {areasOpen && (
-              <div className="absolute top-full left-0 mt-1 w-48 bg-white rounded-lg shadow-xl border border-gray-100 py-2 z-50">
-                {areasLinks.map((link) => (
-                  <Link
-                    key={link.href}
-                    href={link.href}
-                    className="block px-4 py-2 text-sm text-dark-gray hover:bg-light-gray hover:text-navy transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                ))}
+              <div className="absolute top-full left-0 pt-2 w-48 z-50">
+                <div className="bg-white rounded-lg shadow-xl border border-gray-100 py-2">
+                  {areasLinks.map((link) => (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className="block px-4 py-2 text-sm text-dark-gray hover:bg-light-gray hover:text-navy transition-colors"
+                    >
+                      {link.label}
+                    </Link>
+                  ))}
+                </div>
               </div>
             )}
           </div>

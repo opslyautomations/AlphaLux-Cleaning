@@ -160,9 +160,9 @@ export default function HomePage() {
       <SchemaMarkup schema={localBusinessSchema} />
 
       {/* Section 1: Hero */}
-      <section className="bg-navy" style={{ background: 'linear-gradient(135deg, #0B1D3A 0%, #1A2E50 100%)' }}>
-        <div className="container-custom section-padding">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+      <section className="bg-navy min-h-screen flex items-center" style={{ background: 'linear-gradient(135deg, #0B1D3A 0%, #1A2E50 100%)' }}>
+        <div className="container-custom section-padding w-full">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left: Copy */}
             <div className="text-white">
               <h1 className="font-montserrat font-extrabold text-3xl md:text-4xl lg:text-5xl leading-tight mb-6">
