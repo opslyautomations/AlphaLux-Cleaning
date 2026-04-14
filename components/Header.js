@@ -142,8 +142,8 @@ export default function Header() {
           <Link href="/reviews" className="text-dark-gray hover:text-gold font-medium transition-colors text-sm">
             Reviews
           </Link>
-          <Link href="/gallery" className="text-dark-gray hover:text-gold font-medium transition-colors text-sm">
-            Gallery
+          <Link href="/blog" className="text-dark-gray hover:text-gold font-medium transition-colors text-sm">
+            Blog
           </Link>
           <Link href="/contact" className="text-dark-gray hover:text-gold font-medium transition-colors text-sm">
             Contact
@@ -266,8 +266,8 @@ export default function Header() {
             <Link href="/reviews" onClick={closeMobile} className="py-2 text-dark-gray hover:text-gold font-medium border-b border-gray-100">
               Reviews
             </Link>
-            <Link href="/gallery" onClick={closeMobile} className="py-2 text-dark-gray hover:text-gold font-medium border-b border-gray-100">
-              Gallery
+            <Link href="/blog" onClick={closeMobile} className="py-2 text-dark-gray hover:text-gold font-medium border-b border-gray-100">
+              Blog
             </Link>
             <Link href="/contact" onClick={closeMobile} className="py-2 text-dark-gray hover:text-gold font-medium border-b border-gray-100">
               Contact
